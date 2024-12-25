@@ -1,0 +1,23 @@
+.services {
+    @include scrollTopMargin;
+}
+
+.services__title {
+    margin-bottom: 40px;
+
+    @include mobile {
+        margin-bottom: 20px;
+    }
+}
+
+.services__list {
+    display: flex;
+    gap: 40px 30px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    @include mobile {
+        gap: 20px;
+    }
+}
